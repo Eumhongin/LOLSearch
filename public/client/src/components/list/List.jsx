@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 function List() {
-  return <div>List</div>;
+  const [summoner,setsumooner] = useState ([
+  ]);
+  return <div className = 'information'>
+    {summoner.map((item,idx) => {
+      return tear={idx} , info={item}
+    })}
+  </div>;
 }
 
 export default List;
