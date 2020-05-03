@@ -5,7 +5,6 @@ function List() {
   ]);
   return <div className = 'information'>
     {summoner.map((item,idx) => {
-      return tear={idx} , info={item}
     })}
   </div>;
 }
