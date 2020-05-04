@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
 import layouts from "./layouts";
 
-const rootReducer = combineReducers({
+const layouts = combineReducers({
   layouts: layouts,
 });
 
-export default rootReducer;
+export default layouts;

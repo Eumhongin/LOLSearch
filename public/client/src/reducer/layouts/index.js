@@ -1,12 +1,11 @@
 const initialState = {
-  info: {
-    title: "",
-  },
+  info: [],
 };
 
-export default (state = initialState, { type, payload }) => {
+const layouts = (state = initialState, { type, payload }) => {
   switch (type) {
     default:
       return state;
   }
 };
+export default layouts;
