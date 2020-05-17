@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+<<<<<<< HEAD
+
+=======
+>>>>>>> list
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import { createStore } from "redux";
