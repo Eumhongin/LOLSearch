@@ -1,8 +1,11 @@
-import { combineReducers } from "redux";
+import {
+  combineReducers
+} from "redux";
 import layouts from "./layouts";
 
-const layouts = combineReducers({
-  layouts: layouts,
+const globalstate = combineReducers({
+  layouts
+
 });
 
-export default layouts;
+export default globalstate;
